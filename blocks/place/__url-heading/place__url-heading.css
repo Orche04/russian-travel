@@ -1,8 +1,34 @@
 .place__url-heading {
   margin: 0 auto auto 0;
   font-family: Inter;
-  font-size: 12px;
-  line-height: 1;
   font-weight: normal;
   color: #aaa
 }
+
+@media screen and (min-width: 320px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+};
