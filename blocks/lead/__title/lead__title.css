@@ -1,7 +1,8 @@
 .lead__title {
   text-align: center;
-  font-family: Inter;
-  font-weight: bold;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   color: #FFF;
 }
 
