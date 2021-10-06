@@ -40,4 +40,4 @@
     grid-template-columns: repeat(4, minmax(284px, 1fr));
     grid-template-rows: repeat(3, minmax(213px, 1fr));
   }
-};
+}
