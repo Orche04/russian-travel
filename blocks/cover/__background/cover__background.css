@@ -4,10 +4,17 @@
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -1;
+  z-index: 1;
   background-size: cover;
   max-height: 100%;
+  opacity: .8;
+  transition: opacity .5s linear;
 }
+
+.cover__background:hover {
+  opacity: .3;
+}
+
   
 @media screen and (min-width: 320px) {
   .cover__background {
@@ -19,20 +26,17 @@
 @media screen and (min-width: 768px) {
   .cover__background {
     min-height: 480px;
-    max-height: 100%;
   }
 }
   
 @media screen and (min-width: 1024px) {
   .cover__background {
     min-height: 640px;
-    max-height: 100%;
   }
 }
   
 @media screen and (min-width: 1280px) {
   .cover__background {
     min-height: 740px;
-    max-height: 100%;
   }
 }

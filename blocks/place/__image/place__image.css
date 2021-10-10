@@ -1,9 +1,9 @@
 @media screen and (min-width: 320px) {
   .place__image {
-    max-width: 100%;
+    max-width: 320px;
     max-height: 320px;
-    margin: 32px 0 0;
-    order: 3;
+    margin: 32px auto 0;
+    align-self: flex-start;
   }
 }
 
@@ -12,7 +12,6 @@
     max-width: 340px;
     max-height: 340px;
     margin: 48px 0 0;
-    order: 2;
   }
 }
 
@@ -20,8 +19,6 @@
   .place__image {
     max-width: 440px;
     max-height: 440px;
-    margin: 48px 0 0;
-    order: 2;  
   }
 }
 
@@ -29,7 +26,5 @@
   .place__image {
     max-width: 460px;
     max-height: 460px;
-    margin: 48px 0 0;
-    order: 2;
   }
 }

@@ -19,17 +19,3 @@
     line-height: 16px;
   }
 }
-  
-@media screen and (min-width: 1024px) {
- .footer__copyright {
-    margin: 2px 0 0 auto;
-    line-height: 16px;
-  }
-}
-  
-@media screen and (min-width: 1280px) {
-  .footer__copyright {
-    margin: 2px 0 0 auto;
-    line-height: 16px;
-  }
-}
