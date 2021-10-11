@@ -16,7 +16,6 @@
 @media screen and (min-width: 768px) {
   .place {
     margin: 73px auto 0;
-    max-height: 581px;
     max-width: 720px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,14 +26,12 @@
 @media screen and (min-width: 1024px) {
   .place {
     margin: 80px auto 0;
-    max-height: 640px;
     max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place {
-    max-height: 660px;
     max-width: 984px;
   }
 }

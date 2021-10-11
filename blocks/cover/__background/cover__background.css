@@ -7,14 +7,7 @@
   z-index: 1;
   background-size: cover;
   max-height: 100%;
-  opacity: .8;
-  transition: opacity .5s linear;
 }
-
-.cover__background:hover {
-  opacity: .3;
-}
-
   
 @media screen and (min-width: 320px) {
   .cover__background {
